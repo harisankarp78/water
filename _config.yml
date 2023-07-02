@@ -2,7 +2,7 @@
 name: 'Air-Banyan (Beta)'
 description: 'Discover, engage, and act for a sustainable world through my insightful environmental blog.'
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/112.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: '/'
 disqus: 'demowebsite'
 
