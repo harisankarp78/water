@@ -13,14 +13,12 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Discover, engage, and act for a sustainable world through my insightful environmental blog." />
 <meta property="og:description" content="Discover, engage, and act for a sustainable world through my insightful environmental blog." />
-<link rel="canonical" href="http://localhost:4000/404/" />
-<meta property="og:url" content="http://localhost:4000/404/" />
 <meta property="og:site_name" content="Air-Banyan (Beta)" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Air-Banyan (Beta)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Discover, engage, and act for a sustainable world through my insightful environmental blog.","headline":"Air-Banyan (Beta)","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"url":"http://localhost:4000/404/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Discover, engage, and act for a sustainable world through my insightful environmental blog.","headline":"Air-Banyan (Beta)","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"}},"url":"/404/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -76,9 +74,9 @@
 <li class="nav-item">
 <a class="nav-link" href="//index.html">Home</a>
 </li>
-<!-- <li class="nav-item">
+<li class="nav-item">
 <a class="nav-link" href="//authors-list.html">Authors</a>
-</li> -->
+</li>
 <li class="nav-item">
 <a class="nav-link" href="//contact.html">Contact</a>
 </li>
@@ -110,87 +108,87 @@ $(function() {
 
 var documents = [{
     "id": 0,
-    "url": "http://localhost:4000//404/",
+    "url": "//404/",
     "title": "",
     "body": " 404 Page not found :(  The requested page could not be found. "
     }, {
     "id": 1,
-    "url": "http://localhost:4000//about.html",
+    "url": "//about.html",
     "title": "About",
     "body": "Made with by Sal @wowthemesnet. "
     }, {
     "id": 2,
-    "url": "http://localhost:4000//author-harisankar-p.html",
+    "url": "//author-harisankar-p.html",
     "title": "Harisankar P",
     "body": "                                        {{ site. authors. hari. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , hari  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 3,
-    "url": "http://localhost:4000//author-jane.html",
+    "url": "//author-jane.html",
     "title": "Jane",
     "body": "                        {{page. title}} Follow:         {{ site. authors. jane. site }}         {{ site. authors. jane. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , jane  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 4,
-    "url": "http://localhost:4000//author-sal.html",
+    "url": "//author-sal.html",
     "title": "Sal",
     "body": "                        {{page. title}} Follow:         {{ site. authors. sal. site }}         {{ site. authors. sal. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , sal  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 5,
-    "url": "http://localhost:4000//authors-list.html",
+    "url": "//authors-list.html",
     "title": "Authors",
-    "body": "{{page. title}}:     {% for author in site. authors %}                                         {{ author[1]. name }} :       (View Posts)      {{ author[1]. bio }}                          &nbsp;       &nbsp;                                    {% endfor %}  "
+    "body": "{{page. title}}:     {% for author in site. authors %}                                         {{ author[1]. name }} :       (View Posts)      {{ author[1]. bio }}                                                             {% endfor %}  "
     }, {
     "id": 6,
-    "url": "http://localhost:4000//buy-me-a-coffee.html",
+    "url": "//buy-me-a-coffee.html",
     "title": "Buy me a coffee",
     "body": "Hi! I am Sal, web designer &amp; developer at WowThemes. net. The free items I create are my side projects and Mundana for Jekyll is one of them. You can find all the work I release for free here. You have my permission to use the free items I develop in your personal, commercial or client projects. If you’d like to reward my work, I would be honored and I could dedicate more time maintaining the free projects. Thank you so much! Buy me a coffee "
     }, {
     "id": 7,
-    "url": "http://localhost:4000//categories.html",
+    "url": "//categories.html",
     "title": "Categories",
     "body": "          Categories          {% for category in site. categories %}     {{ category[0] }}:           {% assign pages_list = category[1] %}    {% for post in pages_list %}    {% if post. title != null %}     {% if group == null or group == post. group %}           {% include main-loop-card. html %}     {% endif %}    {% endif %}    {% endfor %}    {% assign pages_list = nil %}    {% assign group = nil %}    {% endfor %}                  {% include sidebar-featured. html %}          "
     }, {
     "id": 8,
-    "url": "http://localhost:4000//guest-publishing.html",
+    "url": "//guest-publishing.html",
     "title": "Guest Author Publishing",
     "body": "Submit your article for publishing as a guest author. Please fill out the form below:    Full Name*      Email Address*      Website/Blog (if applicable)      Title of the Article*      Article Category*      Word Count*      Article Summary*      Article Body*      Author Bio*      "
     }, {
     "id": 9,
-    "url": "http://localhost:4000//contact.html",
+    "url": "//contact.html",
     "title": "Contact",
     "body": "  Please send your message to {{site. name}}. We will reply as soon as possible!   "
     }, {
     "id": 10,
-    "url": "http://localhost:4000//",
+    "url": "//",
     "title": "Airbanyan",
     "body": "  {% if page. url ==  /  %}            {% assign latest_post = site. posts[0] %}          &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;           {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                                {{ latest_post. date | date: '%b %d, %Y' }}                            {%- assign second_post = site. posts[1] -%}                        {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                                    {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                                      {{ second_post. date | date: '%b %d, %Y' }}                                    {%- assign third_post = site. posts[2] -%}                        {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                                    {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                                      {{ third_post. date | date: '%b %d, %Y' }}                                    {%- assign fourth_post = site. posts[3] -%}                        {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                                    {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                                      {{ fourth_post. date | date: '%b %d, %Y' }}                                  {% for post in site. posts %} {% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More            	             {% endif %}{% endfor %}  {% endif %}                All Stories:         {% for post in paginator. posts %}          {% include main-loop-card. html %}        {% endfor %}                   {% if paginator. total_pages &gt; 1 %}              {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}                     {% include sidebar-featured. html %}      "
     }, {
     "id": 11,
-    "url": "http://localhost:4000//privacy-policy.html",
+    "url": "//privacy-policy.html",
     "title": "Privacy Policy",
     "body": "”{{site. name}}” takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used. Collection of Routine Information: This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes. Cookies: Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitor and/or present the visitor with customized content. Advertisement and Other Third Parties: Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to opt out of Google’s cookie usage. Links to Third Party Websites: We have included links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own. Security: The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security. Changes To This Privacy Policy: This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website. Contact Information: For any questions or concerns regarding the privacy policy, please contact us here. "
     }, {
     "id": 12,
-    "url": "http://localhost:4000//tags.html",
+    "url": "//tags.html",
     "title": "Tags",
     "body": "          Tags          {% for tag in site. tags %}     {{ tag[0] }}:           {% assign pages_list = tag[1] %}    {% for post in pages_list %}    {% if post. title != null %}     {% if group == null or group == post. group %}           {% include main-loop-card. html %}     {% endif %}    {% endif %}    {% endfor %}    {% assign pages_list = nil %}    {% assign group = nil %}    {% endfor %}                  {% include sidebar-featured. html %}          "
     }, {
     "id": 13,
-    "url": "http://localhost:4000//Companies-in-India-with-Active-CSR-Funds/",
+    "url": "//Companies-in-India-with-Active-CSR-Funds/",
     "title": "Companies in India with Active CSR Funds",
     "body": "2023/07/05 - Introduction:: In the dynamic world of business, it warms our hearts to witness the growing commitment of companies towards Corporate Social Responsibility (CSR) in India. Through dedicated CSR funds, these companies are steering their resources towards initiatives that uplift society and nurture environmental sustainability. Let’s take a closer look at some noteworthy Indian companies that have taken the CSR journey to heart, touching lives with genuine care. Tata Group:: With a legacy spanning generations, the Tata Group has been an exemplar of philanthropy and social impact. Through their esteemed entities like the Tata Social Welfare Trust, Tata Sustainability Group, and Tata Trusts, the group directs substantial CSR funds towards education, healthcare, rural development, livelihoods, and environmental preservation. The soul of Tata lies in empowering communities and nurturing a greener world. Reliance Industries Limited:: Under the visionary leadership of Mukesh Ambani, Reliance Industries has emerged as a stalwart in the realm of CSR. The Reliance Foundation embodies their commitment, focusing on areas like education, healthcare, disaster response, rural development, and environmental conservation. Their CSR initiatives reach far and wide, illuminating countless lives with hope. Infosys:: Beyond its global IT prowess, Infosys has etched its name in the hearts of communities through its Infosys Foundation. A beacon of social responsibility, the foundation passionately supports education, healthcare, rural development, and environmental sustainability. Empowering the underprivileged is a profound mission that lies at the core of Infosys’ philanthropic endeavors. Mahindra Group:: At the heart of the Mahindra Group beats the essence of social responsibility. Their “Mahindra Rise” initiative radiates hope and empowerment, focusing on education, skill development, rural upliftment, and sustainable practices. Through their CSR funds, the group sows the seeds of change that grow into thriving communities. Larsen &amp; Toubro (L&amp;T):: As a prominent engineering and construction conglomerate, L&amp;T’s heart beats for social responsibility. Through the L&amp;T Public Charitable Trust, they embark on projects encompassing education, healthcare, community development, and skill enhancement. L&amp;T’s CSR journey illuminates lives with compassion and care. Nestle India:: In the realm of nourishment, Nestle India extends its embrace of care through a robust CSR program. Focused on nutrition, rural development, water conservation, and education, their initiatives resonate with sustainable practices and community well-being. Nestle India sows the seeds of a healthier and more harmonious society. HDFC Bank:: Among the giants in India’s banking sector, HDFC Bank shines as a true CSR champion. Their initiatives encompass education, healthcare, livelihood training, and rural development. Bridging socio-economic gaps and fostering inclusive growth are the keystones of their CSR philosophy. "
     }, {
     "id": 14,
-    "url": "http://localhost:4000//EIA/",
+    "url": "//EIA/",
     "title": "Environmental Impact Assessment (EIA)",
     "body": "2023/06/28 - When it comes to development projects, it’s important to consider their potential impact on the environment. That’s where Environmental Impact Assessment (EIA) comes in. EIA is an important tool for protecting the environment and promoting sustainable development. By assessing potential environmental impacts, promoting sustainable practices, encouraging public participation, and complying with environmental regulations, EIA can help to create a more sustainable future. What is EIA?: Environmental Impact Assessment (EIA) is a process that evaluates the potential environmental effects of a proposed development project before it is implemented. The purpose of EIA is to identify, assess, and mitigate any adverse impacts on the environment, ensuring that the project aligns with sustainable practices and minimises harm to nature and communities. The following are the steps: 1. Project identification:: The first step is to identify the project and its potential environmental impacts. This includes understanding the project’s scope, location, and activities. 2. Information gathering:: The next step is to gather information about the environment that could be affected by the project. This includes information about air and water quality, biodiversity, land use, noise pollution, and social aspects. 3. Information analysis:: The information gathered in the previous step is then analysed to identify potential environmental impacts. This includes assessing the likelihood and severity of the impacts. 4. Mitigating the impacts:: If any potential impacts are identified, mitigation measures are developed to reduce or eliminate them. Mitigation measures could include implementing pollution control technologies, restoring habitats, conserving biodiversity, managing waste, or implementing social programs to support affected communities. 5. Reporting the findings:: The findings of the EIA are then reported to the project proponent and other stakeholders. This report includes a description of the project, its potential environmental impacts, and the mitigation measures that have been developed. "
     }, {
     "id": 15,
-    "url": "http://localhost:4000//Esri/",
+    "url": "//Esri/",
     "title": "The Significance of ArcGIS and Other Esri Software in Environmental Engineering",
     "body": "2023/06/26 - Esri software is playing an increasingly vital role in the field of environmental engineering. These softwares enable professionals to collect, manage, analyse, and visualise spatial data, offering valuable insights for informed decision-making and environmental assessment. Using these tools gives the holistic approaches Here are some key applications of ArcGIS and other Esri software in environmental engineering: Data Collection:: Utilising ArcGIS and other Esri software, environmental engineers can gather spatial data from diverse sources such as satellite imagery, aerial photography, and on-site surveys. This data is instrumental in creating detailed maps and models, facilitating the identification of environmental challenges and the development of effective solutions. Data collected from on-site surveys are the most common forms of data. Data can be collected using drones and other technologies. Esri offers softwares and tools for mapping also. Data Management:: Esri software enables efficient management of spatial data. Environmental engineers can securely store, update, and share data with colleagues and stakeholders. Effective data management ensures the accuracy and timeliness of spatial information, which is crucial for making well-informed decisions. Ensuring data security is a must. Data breach is common these days so data security is a top priority. It should be accessible from different team locations so that effective coordination takes place between teams. Data Analysis:: Environmental engineers can use ArcGIS software to perform spatial data analysis. These tools provide capabilities for statistical analysis, spatial analysis. It helps identify patterns, relationships, and future trends within the data. Such insights will contribute to better understanding and decision-making in the environmental engineering sector. Spatial Data Visualization:: Esri software offers robust visualisation tools for spatial data. Users can create interactive maps, charts, and graphs that effectively communicate complex information to stakeholders, including government officials, community members, and businesses. Clear data visualisation aids in conveying the results of analysis and facilitates collaborative decision-making. For data visualisation there are other softwares also available in the market. Such as power BI and Tableau desktop. "
     }, {
     "id": 16,
-    "url": "http://localhost:4000//Air-banyan/",
+    "url": "//Air-banyan/",
     "title": "Why Air-Banyan?",
     "body": "2023/06/25 - When I was searching for the perfect name for my environmental blog, I wanted something that would connect my mission and resonate with my audience. I think “Airbanyan” is an ideal choice, capturing the essence of my commitment to raising environmental awareness and fostering a deep connection with nature. “Airbanyan” holds a powerful symbolic connection to nature. The word “Air” signifies the life-sustaining element that envelops us, highlighting the importance of clean air and our responsibility to protect it. Through my blog, I aim to shed light on the significance of air quality and inspire action to combat air pollution for a healthier environment. Just like the sprawling branches and interconnected roots of a Banyan tree, I believe in the power of collaboration and unity in addressing environmental challenges. “Airbanyan” symbolises my vision of building a community of like-minded individuals who share a passion for the environment, fostering collaboration and collective action for a sustainable future. In a world filled with information overload, it is crucial to have a name that leaves a lasting impression. “Airbanyan” accomplishes just that. Its uniqueness and distinctiveness make it memorable, allowing my blog to stand out and make a lasting impact. The name “Airbanyan” inherently reflects my environmental focus. It serves as a constant reminder of the core issues I aim to address, such as air pollution, climate change, and overall environmental well-being. “Airbanyan” communicates my dedication to providing reliable information, sharing inspiring stories, and offering practical solutions to protect and sustain our precious natural environment. It symbolises the significance of preserving our natural world and living in harmony with it. Through my blog, I hope to inspire individuals to appreciate the beauty of nature and cultivate a sense of responsibility towards its conservation. This is an invitation for individuals to join me on this environmental journey, where we can learn together, share insights, and inspire action for a sustainable future.  By choosing this name, I aim to create a brand that resonates with individuals, drawing them to my platform for meaningful environmental discussions and practical solutions. "
     }];
