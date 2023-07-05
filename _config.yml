@@ -36,7 +36,7 @@ authors:
     hari:
       name:           Harisankar P
     
-      avatar:         /assets/images/avatar1.jpg
+      avatar:         'assets/images/avatar1.jpg'
       bio:            "Hi, I am Harisankar P, the author of this blog, I hope you like it!  Reach me on my mail: harisankar@airbanyan.in"
       email:          harisankar@airbanyan.in
  
