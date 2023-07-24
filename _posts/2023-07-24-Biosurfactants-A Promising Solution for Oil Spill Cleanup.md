@@ -6,7 +6,7 @@ categories: [ Blog, sustainabilty ]
 image: assets/images/oil.jpeg
 tags: [featured]
 comments: false
-
+excerpt: "Biosurfactants, natural substances produced by microorganisms like bacteria and fungi, display several advantages over conventional methods. Being biodegradable and non-toxic, they present a safer option. Moreover, they are cost-effective and versatile, applicable in various environments such as seawater, freshwater, and soil."
 ---
 
 Oil spills are a major environmental problem. They can pollute waterways, damage ecosystems, and harm wildlife. In recent years, there has been a growing interest in using biosurfactants to clean up oil spills.
@@ -35,4 +35,3 @@ Here are some of the challenges of using biosurfactants for oil spill cleanup:
 
 Despite these challenges, biosurfactants offer a promising new approach to oil spill cleanup. As research on biosurfactants continues, it is likely that they will become an increasingly important tool for cleaning up oil spills.
 
-![Biosurfactants: A Promising Solution for Oil Spill Cleanup](assets/images/oil.jpeg" Photo by Airbanyan")

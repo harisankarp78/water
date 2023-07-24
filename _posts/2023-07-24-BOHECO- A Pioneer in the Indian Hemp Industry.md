@@ -3,7 +3,7 @@ layout: post
 title:  "BOHECO: A Pioneer in the Indian Hemp Industry"
 author: hari
 categories: [ Blog, Business ]
-image: assets/images/112.png
+image: assets/images/BOHECO.webp
 tags: [featured]
 comments: false
 ---
